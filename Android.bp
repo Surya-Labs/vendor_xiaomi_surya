@@ -316,3 +316,21 @@ dex_import {
 	jars: ["proprietary/system_ext/framework/vendor.qti.voiceprint-V1.0-java.jar"],
 	system_ext_specific: true,
 }
+
+android_app_import {
+	name: "colorservice",
+	owner: "qcom",
+	apk: "proprietary/system_ext/app/colorservice/colorservice.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qti.snapdragon.sdk.display",
+	owner: "qcom",
+	jars: ["proprietary/product/framework/com.qti.snapdragon.sdk.display.jar"],
+	product_specific: true,
+}
