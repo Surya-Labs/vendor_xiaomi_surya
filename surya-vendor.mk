@@ -74,6 +74,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/system_ext/lib/libvraudio_client.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libvraudio_client.qti.so \
     vendor/xiaomi/surya/proprietary/system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.audiohalext@1.0.so \
     vendor/xiaomi/surya/proprietary/system_ext/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.voiceprint@1.0.so \
+    vendor/xiaomi/surya/proprietary/system_ext/lib/extractors/libmmparserextractor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/extractors/libmmparserextractor.so \
+    vendor/xiaomi/surya/proprietary/system_ext/lib/libavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libavenhancements.so \
+    vendor/xiaomi/surya/proprietary/system_ext/lib64/extractors/libmmparserextractor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/extractors/libmmparserextractor.so \
+    vendor/xiaomi/surya/proprietary/system_ext/lib64/libavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libavenhancements.so \
     vendor/xiaomi/surya/proprietary/system_ext/lib64/libsd_sdk_display.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsd_sdk_display.qti.so \
     vendor/xiaomi/surya/proprietary/system_ext/lib64/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsdm-disp-apis.qti.so \
     vendor/xiaomi/surya/proprietary/system_ext/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.0.so \
@@ -1202,5 +1206,6 @@ PRODUCT_PACKAGES += \
     audiosphere \
     vendor.qti.voiceprint-V1.0-java \
     colorservice \
-    com.qti.snapdragon.sdk.display
+    com.qti.snapdragon.sdk.display \
+    libqct_resampler
 
